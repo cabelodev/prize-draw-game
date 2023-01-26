@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "prize-draw": {
+    "prize-draw-game": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "prize-draw:build:production"
+              "browserTarget": "prize-draw-game:build:production"
             },
             "development": {
-              "browserTarget": "prize-draw:build:development"
+              "browserTarget": "prize-draw-game:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "prize-draw:build"
+            "browserTarget": "prize-draw-game:build"
           }
         },
         "test": {
@@ -108,5 +108,5 @@
       }
     }
   },
-  "defaultProject": "prize-draw"
+  "defaultProject": "prize-draw-game"
 }
